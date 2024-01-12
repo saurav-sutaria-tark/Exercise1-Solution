@@ -38,11 +38,34 @@ namespace Exercise1_Solution
             //Console.WriteLine(movingAvg.Difference(3, new double[] { 17, 6.2, 19, 3.4 }));
             //Console.WriteLine(movingAvg.Difference(3, new double[] { 6, 2.5, 3.5 }));
 
-            WordCompositionGame game = new WordCompositionGame();
-            Console.WriteLine(game.Score(new string[] { "cat", "dog", "pig", "mouse" }, new string[] { "cat", "pig" }, new string[] { "dog", "cat" }));
-            Console.WriteLine(game.Score(new string[] { "mouse" }, new string[] { "cat", "pig" }, new string[] { "dog", "cat" }));
-            Console.WriteLine(game.Score(new string[] { "dog", "mouse" }, new string[] { "dog", "pig" }, new string[] { "dog", "cat" }));
-            Console.WriteLine(game.Score(new string[] { "bcdbb", "aaccd", "dacbc", "bcbda", "cdedc", "bbaaa", "aecae" }, new string[] { "bcdbb", "ddacb", "aaccd", "adcab", "edbee", "aecae", "bcbda" }, new string[] {"dcaab","aadbe","bbaaa","ebeec","eaecb","bcbba","aecae","adcab","bcbda"}));
+            //WordCompositionGame game = new WordCompositionGame();
+            //Console.WriteLine(game.Score(new string[] { "cat", "dog", "pig", "mouse" }, new string[] { "cat", "pig" }, new string[] { "dog", "cat" }));
+            //Console.WriteLine(game.Score(new string[] { "mouse" }, new string[] { "cat", "pig" }, new string[] { "dog", "cat" }));
+            //Console.WriteLine(game.Score(new string[] { "dog", "mouse" }, new string[] { "dog", "pig" }, new string[] { "dog", "cat" }));
+            //Console.WriteLine(game.Score(new string[] { "bcdbb", "aaccd", "dacbc", "bcbda", "cdedc", "bbaaa", "aecae" }, new string[] { "bcdbb", "ddacb", "aaccd", "adcab", "edbee", "aecae", "bcbda" }, new string[] {"dcaab","aadbe","bbaaa","ebeec","eaecb","bcbba","aecae","adcab","bcbda"}));
+
+            //LargestSubsequence largestSubsequence = new LargestSubsequence();
+            //Console.WriteLine(largestSubsequence.GetLargest("test"));
+            //Console.WriteLine(largestSubsequence.GetLargest("a"));
+            //Console.WriteLine(largestSubsequence.GetLargest("example"));
+            //Console.WriteLine(largestSubsequence.GetLargest("aquickbrownfoxjumpsoverthelazydog"));
+            //Console.WriteLine(largestSubsequence.GetLargest("gfdcbazyx"));
+
+            //MaximumBalances maximumBalances = new MaximumBalances();
+            //Console.WriteLine(maximumBalances.Solve("(((("));
+            //Console.WriteLine(maximumBalances.Solve("(())"));
+            //Console.WriteLine(maximumBalances.Solve(")))())"));
+            //Console.WriteLine(maximumBalances.Solve("))()()))(()"));
+
+            //DukeOnChessBoard dukeOnChessBoard = new DukeOnChessBoard();
+            //Console.WriteLine(dukeOnChessBoard.DukePath(3, "b2"));
+            //Console.WriteLine(dukeOnChessBoard.DukePath(4, "d4"));
+            //Console.WriteLine(dukeOnChessBoard.DukePath(3, "a2"));
+            //Console.WriteLine(dukeOnChessBoard.DukePath(4, "d3"));
+            //Console.WriteLine(dukeOnChessBoard.DukePath(8, "a8"));
+
+
+
 
         }
 
