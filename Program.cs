@@ -64,8 +64,35 @@ namespace Exercise1_Solution
             //Console.WriteLine(dukeOnChessBoard.DukePath(4, "d3"));
             //Console.WriteLine(dukeOnChessBoard.DukePath(8, "a8"));
 
+            //Islands islands = new Islands();
+            //Console.WriteLine(islands.BeachLength(new string[] { ".#...#.." }));
+            //Console.WriteLine(islands.BeachLength(new string[] {"..#.##",".##.#.","#.#..."}));
+            //Console.WriteLine(islands.BeachLength(new string[] {"#...#.....","##..#...#."}));
+            //Console.WriteLine(islands.BeachLength(new string[]{"....#.",".#....","..#..#","####.."}));
 
+            //Mailbox mailbox = new Mailbox();
+            //Console.WriteLine(mailbox.Impossible("AAAAAAABBCCCCCDDDEEE123456789", new string[] { "123C", "123A", "123 ADA" }));
+            //Console.WriteLine(mailbox.Impossible("ABCDEFGHIJKLMNOPRSTUVWXYZ1234567890", new string[] { "2 FIRST ST", " 31 QUINCE ST", "606 BAKER" }));
+            //Console.WriteLine(mailbox.Impossible("ABCDAAST", new string[] { "111 A ST", "A BAD ST", "B BAD ST" }));
 
+            //MysticAndCandiesEasy mysticAndCandiesEasy = new MysticAndCandiesEasy();
+            //Console.WriteLine(mysticAndCandiesEasy.MinBoxes(10, 10, new int[] { 20 }));
+            //Console.WriteLine(mysticAndCandiesEasy.MinBoxes(10, 7, new int[] { 3, 3, 3, 3, 3 }));
+            //Console.WriteLine(mysticAndCandiesEasy.MinBoxes(100, 63, new int[] { 12, 34, 23, 45, 34 }));
+            //Console.WriteLine(mysticAndCandiesEasy.MinBoxes(19, 12, new int[] { 12, 9, 15, 1, 6, 4, 9, 10, 10, 10, 14, 14, 1, 1, 12, 10, 9, 2, 3, 6, 1, 7, 3, 4, 10, 3, 14 }));
+            //Console.WriteLine(mysticAndCandiesEasy.MinBoxes(326, 109, new int[] { 9, 13, 6, 6, 6, 16, 16, 16, 10, 16, 4, 3, 10, 8, 11, 17, 12, 5, 7, 8, 7, 4, 15, 7, 14, 2, 2, 1, 17, 1, 7, 7, 12, 17, 2, 9, 7, 1, 8, 16, 7, 4, 16, 2, 13, 3, 13, 1, 17, 6 }));
+
+            //PrintScheduler printScheduler = new PrintScheduler();
+            //Console.WriteLine(printScheduler.GetOutput(new string[] { "AB", "CD" }, new string[] { "0 1", "1 1", "0 1", "1 2" }));
+            //Console.WriteLine(printScheduler.GetOutput(new string[] { "ABCDE" }, new string[] { "0 20", "0 21" }));
+            //Console.WriteLine(printScheduler.GetOutput(new string[] { "A", "B" }, new string[] { "1 10", "0 1", "1 10", "0 2" }));
+            //Console.WriteLine(printScheduler.GetOutput(new string[] { "A" }, new string[] { "0 1" }));
+
+            TurningLightOn turningLightOn = new TurningLightOn();
+            Console.WriteLine(turningLightOn.MinFlips(new string[] { "0001111", "0001111", "1111111" }));
+            Console.WriteLine(turningLightOn.MinFlips(new string[] { "1111111", "1111111", "1111111" }));
+            Console.WriteLine(turningLightOn.MinFlips(new string[] { "01001" }));
+            Console.WriteLine(turningLightOn.MinFlips(new string[] { "0101", "1010", "0101", "1010" }));
 
         }
 
